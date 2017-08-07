@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>麦子学院后台管理</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+<!--导航开始-->
+<nav class="navbar navbar-default navbar-fixed-top" id="nav">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="" class="navbar-brand">Maizi&nbsp;Admin</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="active"><a href="admin.html"><span class="glyphicon glyphicon-home"></span>&ensp;后台首页</a></li>
+                <li><a href="admin-user.html"><span class="glyphicon glyphicon-user"></span>&ensp;用户管理</a></li>
+                <li><a href="admin-content.html"><span class="glyphicon glyphicon-list-alt"></span>&ensp;内容管理</a></li>
+                <li><a href="admin-tag.html"><span class="glyphicon glyphicon-tags"></span>&ensp;标签管理</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href=""  class="dropdown-toggle" data-toggle="dropdown">admin&ensp;<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-screenshot"></span>&ensp;前台首页</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-user"></span>&ensp;个人主页</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-cog"></span>&ensp;个人设置</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-credit-card"></span>&ensp;账户中心</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-heart"></span>&ensp;我的收藏</a></li>
+                    </ul>
+                </li>
+                <li><a href=""><span class="glyphicon glyphicon-off"></span>&ensp;退出</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--导航结束-->
+<!--主体开始-->
+<div id="main">
+    <!--修复警告开始-->
+    <div class="container alert-dismissible" style="margin-top: 57px">
+    <div class="col-md-12 alert alert-danger alert-dismissible fade in" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <h4>网站程序有漏洞，急需修复！</h4>
+        <p>当前版本程序(v1.22)存在严重安全问题，容易造成攻击，请即可修复！</p>
+        <a href=""><button type="button" class="btn btn-danger">立即修复</button></a>
+        <a href=""><button type="button" class="btn btn-default">稍后处理</button></a>
+    </div>
+    </div>
+    <!--修复警告结束-->
+<!--站内数据及内容开始-->
+    <div class="container" >
+        <!--网站数据统计开始-->
+        <div class="col-md-6">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    网站数据统计
+                </div>
+                <div class="panel-body">
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>统计项目</th>
+                            <th>今日</th>
+                            <th>昨日</th>
+                        </tr>
+                        </thead>
+
+                    <tr>
+                        <td><strong>注册会员</strong></td>
+                        <td>200</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td><strong>登录会员</strong></td>
+                        <td>4100</td>
+                        <td>5112</td>
+                    </tr>
+                    <tr>
+                        <td><strong>今日发帖</strong></td>
+                        <td>1540</td>
+                        <td>4511</td>
+                    </tr>
+                    <tr>
+                        <td><strong>转载次数</strong></td>
+                        <td>150</td>
+                        <td>110</td>
+                    </tr>
+                </table></div>
+                </div>
+        </div>
+        <!--网站数据统计结束-->
+        <!--网站热帖开始-->
+        <div class="col-md-6">
+        <div class="panel panel-success " style="margin-left: 2%">
+            <div class="panel-heading">
+                网站热帖
+            </div>
+            <div class="list-group">
+                <a href="#" class="list-group-item"><span class="glyphicon glyphicon-list-alt"></span>&ensp;泛Mooc职业教育，效果和就业为王<span style="margin-left: 33%">2015/08/08</span></a>
+                <a href="#" class="list-group-item"><span class="glyphicon glyphicon-list-alt"></span>&ensp;泛Mooc职业教育，效果和就业为王<span style="margin-left: 33%">2015/08/08</span></a>
+                <a href="#" class="list-group-item"><span class="glyphicon glyphicon-list-alt"></span>&ensp;泛Mooc职业教育，效果和就业为王<span style="margin-left: 33%">2015/08/08</span></a>
+                <a href="#" class="list-group-item"><span class="glyphicon glyphicon-list-alt"></span>&ensp;泛Mooc职业教育，效果和就业为王<span style="margin-left: 33%">2015/08/08</span></a>
+                <a href="#" class="list-group-item"><span class="glyphicon glyphicon-list-alt"></span>&ensp;泛Mooc职业教育，效果和就业为王<span style="margin-left: 33%">2015/08/08</span></a>
+                <a href="#" class="list-group-item"><span class="glyphicon glyphicon-list-alt"></span>&ensp;泛Mooc职业教育，效果和就业为王<span style="margin-left: 33%">2015/08/08</span></a>
+            </div>
+        </div>
+            </div>
+        <!--网站热帖结束-->
+        <!--今天访客统计开始-->
+            <div class="col-md-6">
+    <div class="panel panel-success ">
+        <div class="panel-heading">
+            今日访客统计
+        </div>
+        <div class="panel-body">
+            <canvas id="line" datatype="line" width="500" height="275" class="img-responsive"></canvas>
+        </div>
+    </div>
+            </div>
+        <!--今日访客统计结束-->
+        <!--服务器状态开始-->
+                <div class="col-md-6">
+    <div class="panel panel-success" style="margin-left: 2%;">
+        <div class="panel-heading">
+            服务器状态
+        </div>
+        <div class="panel-body">
+            <p>内存使用率：40%</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-info progress-bar-striped active" style="min-width: 40%"></div>
+            </div>
+            <p>数据库使用率：20%</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success progress-bar-striped active" style="min-width: 20%"></div>
+            </div>
+            <p>磁盘使用率：60%</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-warning progress-bar-striped active" style="min-width: 60%"></div>
+            </div>
+            <p>CPU使用率：80%</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger progress-bar-striped active" style="min-width: 80%"></div>
+            </div>
+        </div>
+    </div>
+                </div>
+        <!--服务器状态结束-->
+    </div>
+    <!--团队留言板开始-->
+    <div class="container">
+        <div class="col-md-12">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                团队留言板
+            </div>
+            <div class="panel-body">
+                <!--留言内容开始-->
+                <div class="col-md-6">
+                    <div class="list-group">
+                        <a href="" class="list-group-item" style="background-color:#fbefed">
+                            <div class="pull-left">
+                            <img src="images/a1.png">
+                            </div>
+                            <div class="pull-left" style="margin-left: 2%">
+                            <h4>卓大哥</h4>
+                            <p class="list-group-item-text" style="font-size: 12px">
+                               技术大哥，今晚请把网站程序升级一下哈，现在的系统有漏洞，安全起见！
+                            </p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </a><br>
+                        <a href="" class="list-group-item" style="background-color:#fbefed">
+                            <div class="pull-right">
+                                <img src="images/b1.png">
+                            </div>
+                            <div class="pull-right" style="margin-left: 2%">
+                                <h4>技术大哥</h4>
+                                <p class="list-group-item-text" style="font-size: 12px">
+                                    收到，晚上凌晨2点准时升级！
+                                </p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </a><br>
+                        <a href="" class="list-group-item" style="background-color:#fbefed">
+                            <div class="pull-right">
+                                <img src="images/b1.png">
+                            </div>
+                            <div class="pull-right" style="margin-left: 2%">
+                                <h4>技术大哥</h4>
+                                <p class="list-group-item-text" style="font-size: 12px">
+                                    你先在站点发布一下通知哈！
+                                </p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </a><br>
+                        <a href="" class="list-group-item" style="background-color:#fbefed">
+                            <div class="pull-left">
+                                <img src="images/a1.png">
+                            </div>
+                            <div class="pull-left" style="margin-left: 2%">
+                                <h4>卓大哥</h4>
+                                <p class="list-group-item-text" style="font-size: 12px">
+                                    好勒。
+                                </p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </a><br>
+                    </div>
+                </div>
+                <!--留言内容结束-->
+                <!--输入留言内容&手册开始-->
+                <div class="col-md-6">
+                    <p style="font-weight:600;">输入留言内容</p>
+                    <textarea class="form-control" placeholder="请输入留言内容" cols="50" rows="4" maxlength="100"></textarea>
+                    <button type="submit" class="btn btn-default" style="margin-top: 2%;">留言</button>
+                    <div class="panel panel-success" style="margin-top: 4%">
+                        <div class="panel-heading">团队联系手册</div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">站长(李小龙)：<span class="glyphicon glyphicon-phone"></span>&ensp;13134848615</li>
+                                <li class="list-group-item">技术(大牛哥)：<span class="glyphicon glyphicon-phone"></span>&ensp;13456127694</li>
+                                <li class="list-group-item">推广(张二哥)：<span class="glyphicon glyphicon-phone"></span>&ensp;13457815482</li>
+                                <li class="list-group-item">客服(王女士)：<span class="glyphicon glyphicon-phone"></span>&ensp;13134567782&ensp;<span class="glyphicon glyphicon-phone-alt"></span>&ensp;028-888888</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--输入留言内容&手册结束-->
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--团队留言板结束-->
+    <!--站内数据及内容结束-->
+</div>
+<!--主体结束-->
+<!--底部开始-->
+<footer id="footer">
+    <div class="container text-center">
+        <p>Copyright&ensp;&copy;&ensp;2012-2015&ensp;www.maiziedu.com&ensp;蜀ICP备13014270号-4</p>
+    </div>
+</footer>
+<!--底部结束-->
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/Chart-1.0.1-beta.4.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

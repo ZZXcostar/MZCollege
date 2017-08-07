@@ -1,0 +1,125 @@
+*{margin: 0;padding: 0;}
+body{
+    background-color: #f7f7f7;
+}
+.navbar-header a{
+    font-weight: 600;
+}
+#navbar-collapse a{
+  font-weight: 600;
+}
+.nav-color1{
+    background-color: #29ed96;
+}
+#jumb{
+    background: url("../images/home-bg.jpg") no-repeat ;
+}
+.jumb-shadow{
+    width: 100%;
+    height: 551px;
+    background-color: #000;
+    opacity: 0.8;
+    position: absolute;
+    top: 50px;
+    left: 0;
+     -webkit-mask: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+#jumb h2{
+    color: white;
+    margin-bottom: 10px;
+}
+#jumb p{
+    color: white;
+    font-size: 10px;
+}
+.content{
+/*    margin-top: -20px;*/
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#contact{
+    width: 100%;
+    background: url("../images/contact-bg.png") no-repeat;
+}
+.class-body{
+    width: 270px;
+    height: 50px;
+    background-color: white;
+}
+.class-btn{
+    width:80%;
+    height: 65%;
+    display: block;
+    margin: 8px auto;
+    border:1px solid #40d1b0;
+    background-color: #49ff4f;
+    opacity: 1;
+    border-radius: 3px;
+}
+.class-btn:hover{
+    background-color: #1ae012;
+}
+#maizi-del h3,p{
+    color: white;
+    margin-top: 20px;
+}
+#maizi-del p{
+    font-size: 10px;
+}
+#contact-shadow{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#app-download{
+    margin-bottom: 70px;
+}
+#app-font h4,p{
+    color: #000;
+}
+#app-font p{
+    margin-bottom: 20px;
+}
+#app-font h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.app-btn{
+    width: 120px;
+}
+#said-text{
+    margin-top: 30px;
+}
+#input-id{
+ width: 35%;
+    display: inline;
+}
+#input-em{
+    margin-left: 28px;
+    width: 35%;
+    display: inline;
+}
+#input-text{
+    width: 76%;
+}
+#input-content{
+    width: 76%;
+    height: 20%;
+}
+#btn-sub{
+    width: 60%;
+    background-color: #3fd0af;
+}
+#footer{
+
+}
+#footer p{
+    margin-top: 10px;
+    height: 50px;
+    color: #000;
+}
